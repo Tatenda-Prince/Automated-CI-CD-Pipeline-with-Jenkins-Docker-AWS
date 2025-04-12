@@ -139,7 +139,7 @@ Jenkins will be available at: `http://<public-ip>:8080`
 3.2.After you login to Jenkins,Run the command to copy the Jenkins Admin Password
 `sudo cat /var/lib/jenkins/secrets/initialAdminPassword` - Enter the Administrator password
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/92b1d60bc43463c63dd12cbd5c038ccde68eb695/screenshots/Screenshot%202025-04-12%20170437.png)
 
 
 3.3.Click on Install suggested plugins:
