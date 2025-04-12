@@ -176,7 +176,7 @@ Blue Ocean
 
 4.5.Restart Jenkins after the plugin is installed.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/418e5059ad9123c64c1cf42ea0ba2d292bb83336/screenshots/Screenshot%202025-04-12%20171208.png)
 
 
 4.6.Now we must install Docker on EC2 and grant Jenkins user and Ubuntu user permission to docker
