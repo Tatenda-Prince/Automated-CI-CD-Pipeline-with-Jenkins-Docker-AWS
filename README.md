@@ -329,7 +329,7 @@ Pipeline Console outputs
 docker pull <ecr-repo-url>:latest
 docker run -p 5000:5000 <ecr-repo-url>:latest
 ```
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/7ee59f8cd35bfd8981ab0740530ae85179ff7a7e/screenshots/Screenshot%202025-04-12%20182231.png)
 
 
 Run the the webpage in your local browser `http://localhost:5000/`
