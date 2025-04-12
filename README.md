@@ -138,19 +138,24 @@ Jenkins will be available at: `http://<public-ip>:8080`
 
 3.2.After you login to Jenkins,Run the command to copy the Jenkins Admin Password
 `sudo cat /var/lib/jenkins/secrets/initialAdminPassword` - Enter the Administrator password
+
 ![image_alt]()
 
 
 3.3.Click on Install suggested plugins:
+
 ![image_alt]()
 
 3.4.Wait for the Jenkins to Install suggested plugins
+
 ![image_alt]()
 
 3.5.Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]
+
 ![image_alt]()
 
 3.6.Jenkins Installation is Successful. You can now starting using the Jenkins
+
 ![image_alt]()
 
 
@@ -301,12 +306,15 @@ pipeline {
 1.Push changes to the GitHub repo
 
 2.Jenkins auto-triggers a build
+
 ![image_alt]()
 
 3.Docker image is built and pushed to ECR
+
 ![image_alt]()
 
 4.Slack receives a notification
+
 ![image_alt]()
 
 5.Pull and run image:
@@ -316,6 +324,7 @@ docker pull <ecr-repo-url>:latest
 docker run -p 5000:5000 <ecr-repo-url>:latest
 
 ```
+
 ![image_alt]()
 
 
