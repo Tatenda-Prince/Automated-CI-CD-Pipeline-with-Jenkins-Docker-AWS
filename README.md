@@ -144,7 +144,7 @@ Jenkins will be available at: `http://<public-ip>:8080`
 
 3.3.Click on Install suggested plugins:
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/dfdba4806912d1332ad1064d66ed0a20ef125474/screenshots/Screenshot%202025-04-12%20170519.png)
 
 3.4.Wait for the Jenkins to Install suggested plugins
 
