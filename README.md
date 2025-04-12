@@ -133,11 +133,17 @@ java -version
 
 ```language
 curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
+
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+
 echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+
   https://pkg.jenkins.io/debian binary/ | sudo tee \
+
   /etc/apt/sources.list.d/jenkins.list > /dev/null
+
 sudo apt-get update
+
 sudo apt-get install jenkins
 ```
 
@@ -146,7 +152,8 @@ Jenkins will be available at: `http://<public-ip>:8080`
 ## Step 3: Login to Jenkins
 3.1.`http://<public-ip>:8080` replace the public ip with your own public ip address on your EC2 instance.
 
-3.2.After you login to Jenkins,Run the command to copy the Jenkins Admin Password
+3.2.After you login to Jenkins,Run the command to copy the Jenkins Admin Password:
+
 `sudo cat /var/lib/jenkins/secrets/initialAdminPassword` - Enter the Administrator password
 
 ![image_alt](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/92b1d60bc43463c63dd12cbd5c038ccde68eb695/screenshots/Screenshot%202025-04-12%20170437.png)
@@ -192,21 +199,32 @@ Blue Ocean
 4.6.Now we must install Docker on EC2 and grant Jenkins user and Ubuntu user permission to docker
 ```langauge
 sudo apt-get update -y
+
 sudo apt-get install docker.io -y
+
 sudo systemctl start docker
+
 sudo systemctl enable docker
+
 sudo usermod -aG docker jenkins
+
 sudo systemctl restart jenkins
+
 sudo reboot
 ```
 
 4.6.Now we must install AWS CLI on EC2
 ```language
 sudo apt update
+
 sudo apt install unzip curl -y
+
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
 unzip awscliv2.zip
+
 sudo ./aws/install
+
 aws --version
 ```
 
@@ -218,7 +236,7 @@ aws ecr create-repository --repository-name flask-python-app --region us-east-1
 
 ## Step 5: Store Credentials in Jenkins
 
-1. AWS Credentials
+5.1.AWS Credentials
 
 Jenkins → `Manage Jenkins` → `Credential`s → `Global` → Add Credentials
 
@@ -228,15 +246,18 @@ ID: `aws-creds`
 
 Username: Your AWS Access Key
 
-Password: Your AWS Secret Key
+Password: Your AWS Secret Key 
 
-2. Slack Webhook
+
+5.2.Slack Webhook
 
 Type: Secret Text
 
 ID: `SLACK_WEBHOOK`
 
-Secret: Your Slack Webhook URL
+Secret: `Your Slack Webhook URL`
+
+
 
 ## Step 6: Create Jenkins Pipeline
 Use this `Jenkinsfile`:
