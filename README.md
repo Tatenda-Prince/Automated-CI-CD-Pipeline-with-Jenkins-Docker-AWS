@@ -321,7 +321,7 @@ Pipeline Console outputs
 
 4.Slack receives a notification
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/1fe32e241e186622231de3e4c0f6fa964d5e702a/screenshots/Screenshot%202025-04-12%20180930.png)
 
 5.Pull and run image:
 
