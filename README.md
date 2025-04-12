@@ -1,6 +1,6 @@
 # CI/CD Pipeline with Jenkins, Docker, AWS ECR & Terraform
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/786c5f1d3b1bbf78dc1011ad3c224e188f338fd2/screenshots/Screenshot%202025-04-12%20205625.png)
 
 ## Background
 Manually provisioning infrastructure and deploying applications slows down software delivery and increases human error. DevOps engineers solve this using Infrastructure as Code (IaC) and CI/CD pipelines to automate deployments, enhance security, and improve reliability.
