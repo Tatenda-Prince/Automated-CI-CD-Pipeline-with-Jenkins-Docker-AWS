@@ -156,7 +156,7 @@ Jenkins will be available at: `http://<public-ip>:8080`
 
 3.6.Jenkins Installation is Successful. You can now starting using the Jenkins
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/4a6441aac16e9826587df346c7a7a0609a0d7f4d/screenshots/Screenshot%202025-04-12%20171013.png)
 
 
 ## Step 4: Install Plugins & Docker, AWS CLI 
