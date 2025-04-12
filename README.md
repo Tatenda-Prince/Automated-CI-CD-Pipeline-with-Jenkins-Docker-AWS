@@ -309,6 +309,12 @@ pipeline {
 
 ![image_alt](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/54d5860069e4fffe2b23c425bae35cebc38fd17e/screenshots/Screenshot%202025-04-12%20180627.png)
 
+
+Pipeline Console outputs
+
+![image_alt](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/f2efd6ff78f2a9825257b33a2226f795804ff204/screenshots/Screenshot%202025-04-12%20180821.png)
+
+
 3.Docker image is built and pushed to ECR
 
 ![image_alt]()
