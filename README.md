@@ -81,6 +81,16 @@ You work as Devops Engineer at small start that delivers Saas products to custom
 
 5.Slack Webhook URL for notifications
 
+6.Git clone these two repository below to have access to flask app code and terraform code 
+
+```language
+git clone https://github.com/Tatenda-Prince/flask-app.git
+
+git clone https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS.git
+
+```
+
+
 
 ## Step 1: Provision Jenkins EC2 Instance using Terraform
 
