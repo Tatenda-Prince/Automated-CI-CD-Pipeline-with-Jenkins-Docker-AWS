@@ -317,7 +317,7 @@ Pipeline Console outputs
 
 3.Docker image is built and pushed to ECR
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/a52d0ce946a0d6dd6d7bafe5556ff4ef13cc4aaa/screenshots/Screenshot%202025-04-12%20183428.png)
 
 4.Slack receives a notification
 
