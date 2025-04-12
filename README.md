@@ -152,7 +152,7 @@ Jenkins will be available at: `http://<public-ip>:8080`
 
 3.5.Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/3ad16be5f7be52e0ae4dd04ca903ada4ae38d8b4/screenshots/Screenshot%202025-04-12%20170946.png)
 
 3.6.Jenkins Installation is Successful. You can now starting using the Jenkins
 
