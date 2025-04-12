@@ -102,7 +102,7 @@ terraform init
 terraform apply
 ```
 
-![alt_images]()
+![alt_images](https://github.com/Tatenda-Prince/Automated-CI-CD-Pipeline-with-Jenkins-Docker-AWS/blob/e2c664c636ed7172d2976b3b33138ab162086c8c/screenshots/Screenshot%202025-04-12%20165209.png)
 
 
 ## Step 2: SSH into EC2 and install Jenkins, Docker, AWS CLI 
