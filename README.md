@@ -335,6 +335,16 @@ pipeline {
 ## Testing the System
 
 1.Push changes to the GitHub repo
+```language
+git add .
+
+git commit -m "updated the app.py homepage"
+
+git remote add https://github.com/Tatenda-Prince/flask-app.git
+
+git push origin master
+
+```
 
 2.Jenkins auto-triggers a build
 
